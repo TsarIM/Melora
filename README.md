@@ -2,20 +2,20 @@
 Twitter for music built using MERN and redis for caching
 
 
-commands frontend:
+<h4>commands frontend:</h4>
 
 npx create-react-app . --template typescript </br>
 npm install react-router-dom @react-oauth/google
 
-commands backend:
+<h4>commands backend:</h4>
 
-npm init -y
-npm install express cors express-session dotenv
-npm install mongodb redis
-npm install jsonwebtoken multer
+npm init -y </br>
+npm install express cors express-session dotenv </br>
+npm install mongodb redis </br>
+npm install jsonwebtoken multer </br>
 
-commands redis:
+<h4>commands redis:</h4>
 
-brew services stop redis
-brew services start redis
-brew install redis
+brew install redis </br>
+brew services start redis </br>
+brew services stop redis </br>
