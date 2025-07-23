@@ -4,7 +4,7 @@ Twitter for music built using MERN and redis for caching
 
 commands frontend:
 
-npx create-react-app . --template typescript
+npx create-react-app . --template typescript </br>
 npm install react-router-dom @react-oauth/google
 
 commands backend:
